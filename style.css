@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+h1 {
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    background-color: #F4F7FF;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+
+.hero-section {
+    height: 55vh;
+
+    color: white;
+
+    background-image:
+        linear-gradient(to top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.3)),
+        url('https://wvumedicine.org/anewdayforhealth/wp-content/uploads/sites/28/2017/12/Foggy-mountains.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.hero-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    font-weight: 400;
+
+
+    font-size: 3rem;
+}
+
+h1 {
+    margin: 0 0 3rem 0;
+}
+
+nav {
+    padding: 1em 1em;
+    transition: all .3s;
+}
+
+nav:hover {
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.hero-section ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+}
+
+.hero-section li {
+    margin-right: 25px;
+}
+
+.hero-section li:hover {
+    text-decoration: solid;
+    cursor: pointer;
+}
+
+.nav-link:hover {
+    transform: scale(1.1);
+    color: #ffffff;
+}
+
+.nav-link:active {
+    transform: scale(1);
+}
